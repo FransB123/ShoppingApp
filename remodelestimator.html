@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Vanilla Javascript Shopping App</title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="remodelestimator.css">
+        <script async src="app.js" type="module" charset="utf-8"></script>
+    </head>
+    <body>
+        <h1>Vanilla Javascript Shopping App</h1>
+        
+        <div style="text-align: center;">
+          <h2><a href="../index.html">Back to home page</a></h2>
+          <h2>Current Functions / Instructions</h2>
+          <ul>
+            <ol>
+            <li>Create new shopping items with table options.</li>
+            <li>In shopping section, pick options of the items and add to cart.</li>
+            <li>Adds item to cart with price.</li>
+            <li>Adds prices of all items into a price total.</li>
+            <li>Option to remove all items from cart.</li>
+            <li>Has the ability to create and add identical items.</li>
+            <li>No limit on the amount of items that can be created.</li>
+            </ol>
+          </ul>
+         
+          
+         </div>
+
+        <div id="inputtable">
+
+            <h3>Item creation section</h3>
+  
+            <table>
+              <tr>
+                <th>Item Name: <input id="itemName" type="text"></th>
+              </tr>
+              <tr>
+                <th>Customized options</th>
+              </tr>
+              <tr>
+                <td>Option 1: <input id="option1" type="text"> Price: <input id="option1price" type="text"></td>
+              </tr>
+              <tr>
+                <td>Option 2: <input id="option2" type="text"> Price: <input id="option2price" type="text"></td>
+              </tr>
+              <tr>
+                <td>Option 3: <input id="option3" type="text"> Price: <input id="option3price" type="text"></td>
+              </tr>
+              <tr>
+                <td>Option 4: <input id="option4" type="text"> Price: <input id="option4price" type="text"></td>
+              </tr>
+              <tr>
+                <td><button id="itemaddsubmit">Add Item</button></td>
+              </tr>
+            </table>
+  
+        </div>
+
+        <h3>Shopping Section</h3>
+        <h4>Shop Items</h4>
+        <div id="newItemDiv">
+          
+
+        </div>
+
+        <h4>Shopping Cart</h4>
+        <div id="cart">
+          
+
+        </div>
+
+        <h4>Cart Total</h4>
+        <div id="cartTotal">
+          
+
+        </div>
+
+        <button id="removeItems">Remove Items From Cart</button>
+
+
+    </body>
+</html>

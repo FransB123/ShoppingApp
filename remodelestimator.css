@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+#codelink {
+    width:7em;
+}
+
+#gitlink {
+    margin-top: 4em;
+    text-align: center;
+}
+
+#inputtable {
+    margin-top: 5em;
+}
